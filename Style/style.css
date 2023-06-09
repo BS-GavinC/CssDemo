@@ -1,0 +1,42 @@
+*
+{/* 
+    
+    color: crimson;*/
+    font-size: 1.1em;
+    font-family: "Geologica";
+} 
+
+#conteneur{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+}
+
+
+#elem1{
+    
+    background-color: blueviolet;
+}
+
+#elem2{
+    background-color: hotpink;
+}
+
+#elem3{
+    flex-grow: 0.1;
+    background-color: palegreen;
+}
+
+.elem{
+    text-align: center;
+    flex-grow: 1;
+    margin: 5px;
+    
+}
+
+
+
+
+
+
