@@ -8,9 +8,10 @@
 
 #conteneur{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     background-color: aqua;
+    
 }
 
 
@@ -24,6 +25,10 @@
 }
 
 #elem3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     flex-grow: 0.1;
     background-color: palegreen;
 }
@@ -31,8 +36,12 @@
 .elem{
     text-align: center;
     flex-grow: 1;
-    margin: 5px;
-    
+    margin: 02px 0px;
+}
+
+.souselem{
+    margin: 2px;
+    background-color: blue;
 }
 
 
